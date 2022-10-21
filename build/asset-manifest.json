@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.105c9feb.css",
+    "main.js": "/static/js/main.61efaef5.js",
+    "static/media/p2.png": "/static/media/p2.203455b6ed566660f1d0.png",
+    "static/media/p9.png": "/static/media/p9.6a695b84a55b9ecfefb2.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/p3.png": "/static/media/p3.8ed760be19d03a32d3f8.png",
+    "static/media/p10.png": "/static/media/p10.9cc9a23b4d56484ccaaf.png",
+    "static/media/main.png": "/static/media/main.424f5f6b5cb99950416c.png",
+    "static/media/p8.png": "/static/media/p8.61b42d55f343dd60f812.png",
+    "static/media/p4.png": "/static/media/p4.78d7e9d0f29722970d2f.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/mainPic.svg": "/static/media/mainPic.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/r.png": "/static/media/r.b76698cf6e821b8a8758.png",
+    "static/media/t.png": "/static/media/t.36b2728bf0d14b7b7576.png",
+    "static/media/css.png": "/static/media/css.47d0e9b92f6f85241c67.png",
+    "static/media/bs.png": "/static/media/bs.3c4e1a5d3a149087b144.png",
+    "static/media/p6.png": "/static/media/p6.8e56df0c7d15b6710ee3.png",
+    "static/media/js.png": "/static/media/js.7f8751632b42a9932c15.png",
+    "static/media/p5.png": "/static/media/p5.5c28f722cc2c0b3004a4.png",
+    "static/media/p7.png": "/static/media/p7.2f7384c6002a6883d8e2.png",
+    "static/media/sass.png": "/static/media/sass.6747d5c68a381e29fc69.png",
+    "static/media/p1.png": "/static/media/p1.8465bc300e7e5a783113.png",
+    "static/media/html.png": "/static/media/html.2c6a71b184b518b01b9a.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "index.html": "/index.html",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.105c9feb.css.map": "/static/css/main.105c9feb.css.map",
+    "main.61efaef5.js.map": "/static/js/main.61efaef5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.105c9feb.css",
+    "static/js/main.61efaef5.js"
+  ]
+}

@@ -1,0 +1,83 @@
+.about{
+    background: #121212;
+  }
+img.about__img{
+    border-radius: 10px;
+    height: auto;
+  }
+  h1.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    margin:30px;
+  }
+  button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 180px;
+    height: 55px;
+    font-size: 18px;
+    transition: .4s ease;
+    background-color: rgba(81, 54, 170, 0.5);
+    color:#fff;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+    margin:30px;
+}
+  .about__button{
+    padding: 20px 0px;
+    
+   
+    
+   
+  }
+  a.bottom__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: rgba(47, 153, 189, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all ease;
+    z-index: 1000;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: .4s all ease;
+    -moz-transition: .4s all ease;
+    -ms-transition: .4s all ease;
+    -o-transition: .4s all ease;
+}
+  a.bottom__to__top.active{
+    display: flex;
+  }
+  .about__text {
+    margin: 30px;
+  }
+
+
+
+  /* RESPONSIVE */
+  @media only screen and (max-width: 1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+  }
+  @media only screen and (max-width: 425px){
+  button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 165px;
+    height: 50px;
+    font-size: 13px;
+    transition: .4s ease;
+  }
+  }
