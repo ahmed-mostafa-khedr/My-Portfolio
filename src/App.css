@@ -40,7 +40,8 @@ a:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-delay: 0ms;
-color: rgba(204, 204, 204, 0.267);
+/* color: rgba(204, 204, 204, 0.267); */
+padding: 10px 0;
 
 }
 @media  (min-width:200px) and (max-width:767px){
@@ -305,21 +306,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*skill*/
 .skill{
-  padding:0 0 50px 0;
-  position:realtive;
-  margin: 50px 0 60px;
+  padding:50px 0 50px 0;
+  position:relative;
+  /* margin: 50px 0 60px; */
+ background: #fff;
 }
 .skill-bx{
-  background: #bebdbd15;
+  background: linear-gradient(90.21deg, rgba(81, 54, 170, 0.5)  -5.91%,rgba(47, 153, 189, 0.5) 111.58%);
   box-shadow:0 1px 10px white;
   border-radius: 64px;
   text-align: center;
   padding:60px 50px;
-  margin-top: -50px;
+  /* margin-top: -50px; */
   -webkit-border-radius: 64px;
   -moz-border-radius: 64px;
   -ms-border-radius: 64px;
   -o-border-radius: 64px;
+ 
+  
   
 }
 
@@ -331,12 +335,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
 }
 .skill p {
-    color: #B8B8B8;
+    /* color: #B8B8B8; */
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
     text-align: center;
+    opacity: 0.8;
   
 }
 .skill-slider {
@@ -366,7 +371,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #fff;
+  color: #000;
 }
 .project h2 {
 	font-size: 45px;
@@ -386,7 +392,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgb(0 ,0 ,0 ,0.3);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -405,6 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+  
 }
 .project .nav.nav-pills .nav-link::before {
     content: "";
@@ -521,7 +528,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*Contact */
 .contact {
   background: linear-gradient(90.21deg, rgba(81, 54, 170, 0.5)  -5.91%,rgba(47, 153, 189, 0.5) 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 60px 0;
 }
 .contact img {
   width: 92%;
@@ -679,4 +686,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 canvas {
   display: block;
 
+}
+.calling{
+  color: #fff !important;
+  text-decoration: none;
+}
+.vvd:hover .calling{
+  color: #000 !important;
+}
+.banner-img{
+  transform: rotateY(180deg);
+}
+.react-multiple-carousel__arrow--left{
+  left: 0% !important;
+}
+.react-multiple-carousel__arrow--right{
+  right: 0% !important;
 }
